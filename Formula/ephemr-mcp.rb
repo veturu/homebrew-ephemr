@@ -1,26 +1,26 @@
 class EphemrMcp < Formula
   desc "Ephemr MCP server for Claude Desktop, Cursor, Codex, and similar"
   homepage "https://ephemr.io/mcp"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.1/ephemr-mcp-darwin-arm64"
-      sha256 "1219adcc50d9aeac3a5ae5574e6f4c4841132322ec4b80aec8f4f79c1d787a08"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.2/ephemr-mcp-darwin-arm64"
+      sha256 "64d9ebe93a94b28a8f219144bab861da6b889aff836b76c2adcbb66616ffbe92"
     else
-      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.1/ephemr-mcp-darwin-amd64"
-      sha256 "7c4f9dcfe15c8e4deba780992b162b0ce9af1374858ea008ff1c8f11383b18a4"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.2/ephemr-mcp-darwin-amd64"
+      sha256 "34d29f2b3ade6bbe2fa1ddd8e50d4031e24fd3484edaf0c8185a659ce30be9bc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.1/ephemr-mcp-linux-arm64"
-      sha256 "e01ba56b2b3e7d3224b5cfa12ec5f0a4cd13fc11d97ed5ab4a7218897b64e304"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.2/ephemr-mcp-linux-arm64"
+      sha256 "bc5e01518bc1a883c8b9dffeb902f83c4008eec90932416f204bbbd4d9c3eb44"
     else
-      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.1/ephemr-mcp-linux-amd64"
-      sha256 "904703d61f905771fd406c5a83b6123c70634c51536442f005a4cd97d4ad398c"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.2/ephemr-mcp-linux-amd64"
+      sha256 "dbdbdda0eceb16df503ee5bdf20893cf851ddf282557d98fe4afddeddfc66cd0"
     end
   end
 
