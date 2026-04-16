@@ -6,21 +6,21 @@ class Ephemr < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/veturu/ephemr/releases/download/v0.1.0/ephemr-darwin-arm64"
-      sha256 "6aabb79e8ac01704c1ab45e42a32917a9066de20d3a413e22bfdd8b1cbf0cdf6"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.0/ephemr-darwin-arm64"
+      sha256 "ce284f56888c777a25707e198979e350d37b958c8f8b483495754cfdf63a9bd4"
     else
-      url "https://github.com/veturu/ephemr/releases/download/v0.1.0/ephemr-darwin-amd64"
-      sha256 "8da6548d748e11bd6233f7b7091dacbd657d1b0efe2f7b04ace146e862255adb"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.0/ephemr-darwin-amd64"
+      sha256 "759161970a560b1346392ed0730c659875cde9c7a4e43d878f0dfe1b86217d78"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/veturu/ephemr/releases/download/v0.1.0/ephemr-linux-arm64"
-      sha256 "cd958af7ee469b344512b331d881223589a8e35b963b19b02bf40e5b2b8e0117"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.0/ephemr-linux-arm64"
+      sha256 "7424e7dee4e6d8119d4a26e4671f50bdf16748fe249cfdde979db78f05629322"
     else
-      url "https://github.com/veturu/ephemr/releases/download/v0.1.0/ephemr-linux-amd64"
-      sha256 "e3f41c462508558f6775d45531dd02df6e8b7536b59650e413d473763e51af5f"
+      url "https://github.com/veturu/homebrew-ephemr/releases/download/v0.1.0/ephemr-linux-amd64"
+      sha256 "eda55e29725a97c7a99e74e92bbfe5bebd5b47b135d1c09394991147ef97fa25"
     end
   end
 
